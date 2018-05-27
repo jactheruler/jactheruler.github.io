@@ -1040,10 +1040,10 @@ import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 			padding: 0 1em;
 		} }
 
-	.container {
+	Body {
     		-ms-overflow-style: none;  // IE 10+
     		overflow: -moz-scrollbars-none;  // Firefox
 	}
-	.container::-webkit-scrollbar { 
+	Body::-webkit-scrollbar { 
     		display: none;  // Safari and Chrome
 	}
