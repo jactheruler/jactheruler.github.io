@@ -69,7 +69,7 @@ import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 
 	body {
 		background: #fff;
-		overflow-y: scroll;
+		overflow-y: auto;
 	}
 
 		body.loading * {
