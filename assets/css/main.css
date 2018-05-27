@@ -1,4 +1,4 @@
-import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
 /*
@@ -69,7 +69,7 @@ import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 
 	body {
 		background: #fff;
-		overflow-y: auto;
+		overflow: hidden;
 	}
 
 		body.loading * {
@@ -1039,11 +1039,3 @@ import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 		#header nav {
 			padding: 0 1em;
 		} }
-
-	html {
-    		-ms-overflow-style: none;  // IE 10+
-    		overflow: -moz-scrollbars-none;  // Firefox
-	}
-	html::-webkit-scrollbar { 
-    		display: none;  // Safari and Chrome
-	}
