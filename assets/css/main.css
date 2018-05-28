@@ -521,20 +521,6 @@
 			line-height: 1em;
 		}
 
-		#header h2{
-			font-size: 2.75em;
-			font-weight: 300;
-			letter-spacing: -0.035em;
-			line-height: 1em;	
-		}
-
-		#header h3{
-			font-size: 4.35em;
-			font-weight: 900;
-			letter-spacing: -0.035em;
-			line-height: 1em;	
-		}
-
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
@@ -544,6 +530,19 @@
 		#header nav {
 			margin: 1.5em 0 0 0;
 		}
+			#header nav h2{
+				font-size: 2.75em;
+				font-weight: 300;
+				letter-spacing: -0.035em;
+				line-height: 1em;	
+			}
+
+			#header nav h3{
+				font-size: 4.35em;
+				font-weight: 900;
+				letter-spacing: -0.035em;
+				line-height: 1em;	
+			}
 
 			#header nav li {
 				-moz-animation: nav-icons 0.5s ease-in-out forwards;
