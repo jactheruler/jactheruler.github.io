@@ -14,21 +14,6 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<rule name="RedirectUserFriendlyURL1" stopProcessing="true">
-    		<match url="^(.*)\.(.*)$" />
-    		<conditions>
-        		<add input="{REQUEST_METHOD}" pattern="^POST$" negate="true" />
-    		</conditions>
-   		<action type="Redirect" url="{R:1}" appendQueryString="false" />
-	</rule>
-	<rule name="RewriteUserFriendlyURL1" stopProcessing="true">
-    		<match url="^(.*)$" />
-    		<conditions>
-        	<add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" />
-        	<add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" />
-    	</conditions>
-    	<action type="Rewrite" url="{R:1}.(.*)" />
-	</rule> 
 	<body class="loading">
 		<div id="wrapper">
 			<div id="bg"></div>
